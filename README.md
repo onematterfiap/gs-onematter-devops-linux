@@ -75,7 +75,7 @@ A API está configurada para usar um banco de dados **Oracle**. A configuração
 1.  **Clone o repositório:**
 
     ```bash
-    git clone [https://github.com/mtslma/one-matter-api.git](https://github.com/mtslma/one-matter-api.git)
+    git clone https://github.com/mtslma/one-matter-api.git
     cd one-matter-api
     ```
 
