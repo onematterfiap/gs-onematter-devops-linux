@@ -18,7 +18,7 @@ RUN mvn dependency:go-offline || echo "Ignorando erro de dependência para cache
 # 2. Copia o código-fonte
 COPY . .
 # 3. Realiza o Build da Aplicação com o Maven
-RUN mvn clean package -DskipTests
+RUN MAVEN_OPTS="-Xmx512m" mvn clean package -DskipTests
 
 # ----------------------------------------------------------------------------
 # RUN STAGE: Cria a imagem de execução leve
