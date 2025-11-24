@@ -184,3 +184,9 @@ A API é modularizada por controllers, com proteção de rota baseada em `ADMIN`
 | `/skills/associar-vaga` | Skills             | POST (Associa skill a uma vaga)            |
 | `/questoes`             | Banco de Questões  | GET, POST, PUT, DELETE                     |
 | `/admin/users`          | Gestão de Usuários | GET, POST (Cria `ADMIN`/`USER` gerenciado) |
+
+### Integrantes do grupo
+
+- Arthur Thomas Mariano de Souza RM561061
+- Davi Cavalcanti Jorge RM559873
+- Mateus da Silveira Lima RM559728
